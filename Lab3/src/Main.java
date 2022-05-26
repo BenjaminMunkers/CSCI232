@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Main {
 
     public static int fibinacci(int index){
+        //Calculates the index of a fibinacci number recursively
         if(index < 3){
             return 1;
         }
